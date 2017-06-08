@@ -5,6 +5,20 @@
 ## Build generated
 build/
 DerivedData/
+Last login: Wed Jun  7 14:01:47 on ttys000
+You have new mail.
+192:vip-starter sa$ cd /amin/flipbox/Amplifia
+192:Amplifia sa$ vi .gitignore 
+
+Pods
+Podfile.lock
+UserInterfaceState.xcuserstate
+Build
+fastlane
+pbxproj
+.DS_Store
+*.swp
+*.DS_Store
 
 ## Various settings
 *.pbxuser
