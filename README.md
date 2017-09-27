@@ -63,4 +63,6 @@ VIP is a set of Xcode Templates to generate the Clean Architecture components.
 
 
 
+# Packaging & naming
+
 
