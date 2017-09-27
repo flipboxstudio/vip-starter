@@ -61,8 +61,26 @@ VIP is a set of Xcode Templates to generate the Clean Architecture components.
 * Route to next screen
 * Pass data to other view controller
 
-
-
 # Packaging & naming
 
-
+```
+[Optional] Core
+  - Assets.xcassets
+  - LaunchScreen.storyboard
+  - AppDelegate.swift
+Base
+Models
+Scenes
+  - YourSceneName
+Services
+Worker
+```
+| Group Name | Description |
+| ---------- | ----------- |
+| Core | Core file of xcode project like `Assets.xcassets`, `LaunchScreen.storyboard`, `AppDelegate.swift` |
+| Base | Base class, that usefull for minimize code |
+| Models | Model that used for many class ( global model ) |
+| Scenes | Actualy `ViewController` but separated follow clean-swift |
+| Services | Add Global `Services/Helper` here |
+| Worker | Actualy Global 'Helper' but specific to busines logic |
+```
