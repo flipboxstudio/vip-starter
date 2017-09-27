@@ -78,9 +78,9 @@ Worker
 | Group Name | Description |
 | ---------- | ----------- |
 | Core | Core file of xcode project like `Assets.xcassets`, `LaunchScreen.storyboard`, `AppDelegate.swift` |
-| Base | Base class, that usefull for minimize code |
-| Models | Model that used for many class ( global model ) |
-| Scenes | Actualy `ViewController` but separated follow clean-swift |
-| Services | Add Global `Services/Helper` here |
-| Worker | Actualy Global 'Helper' but specific to busines logic |
+| Base | Base class, that useful for minimize code |
+| Models | Contains data structures that will be used for data management |
+| Scenes | contain VIP Components that make up the screen |
+| Services | Global Helper not related to business logic |
+| Worker | Global Helper specific to business logic |
 ```
